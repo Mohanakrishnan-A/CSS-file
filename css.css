@@ -1,0 +1,10 @@
+h1{
+    color: darkred;
+    font-size: larger;
+    font-family:  Georgia;
+}
+p{
+    color: rgb(0, 17, 255);
+    font-size: medium;
+    font-family: 'Courier New';
+}

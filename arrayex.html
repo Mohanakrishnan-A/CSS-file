@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arrayex</title>
+        <script type="text/javascript">
+            function arrayfunc(){
+                var fruits=["Banana","Apple","Orange","Pineapple"];
+               // document.write(fruits+"<br>");
+                
+               // document.write(fruits[0]+"<br>");
+               // document.write(fruits[1]+"<br>");
+               // document.write(fruits[2]+"<br>");
+               // document.write(fruits[3]+"<br>");
+               // document.write("No.of.fruits "+fruits.length);
+               var i;
+               console.log("Before for loop");
+               for(i=0;i<fruits.length;i++)
+               {
+                document.write(fruits[i]+"<br>");
+               }
+             document.write("Reverse Order"+"<br>");
+               for(i=fruits.length-1;i>=0;i--)
+               {
+                document.write(fruits[i]+"<br>");
+               }
+               document.write("Using while loop"+"<br>");
+               while(i<=fruits.length){
+                document.write(i);
+                i=i+1;
+               }
+
+                
+
+            }
+        </script>
+    </head>
+    <body>
+        <p align="center">HTML Page</p>
+        <input type="button" value="Click" onclick="arrayfunc()"/>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>Javascript Arrays</title>
+<script type="text/javascript">
+function arrayfunc()
+{
+var  fruits=["Banana","Apple","Mango","pineapple"];
+ var i,popelement ; 
+console.log("before for loop");
+ shiftelement =fruits.shift();
+ popelement =fruits.pop();
+ document.write("Deleted element is  "+popelement +"<br>" );
+document.write("After pop array elements "+fruits+"<br>");
+document.write("Deleted element is  "+shiftelement +"<br>" );
+document.write("After shift array elements "+fruits);
+}
+</script>
+</head>
+<body>
+<p> HTML page</p><br>
+<input type="button" value="click" onclick="arrayfunc()"/>
+</body>
+</html>
